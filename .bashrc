@@ -14,6 +14,7 @@ alias diff='colordiff'
 export LESSOPEN="| /usr/bin/source-highlight-esc.sh %s"
 export LESS="-R"
 export EDITOR=vim
+export NMON=cmdnt
 
 # Reset
 Color_Off='\e[0m'       # Text Reset
