@@ -93,7 +93,7 @@ On_IWhite='\e[0;107m'   # White
 # PS1='[\u@\h \W]\$ '
 # PS1='[\[\e[0;32m\]\u@\h \[\e[0;34m\]\W\[\e[0m\]]\$\[\e[0m\] '
 # PS1='\[\e[0;31m[\[\e[0;32m\]\u\[\e[0;34m\]@\[\e[0;34m\]\h \[\e[0m\]\W\[\e[0;31m\]]\$\[\e[0m\] '
-PS1="\[$Red\][\[$Green\]\u\[$Blue\]@\h \[$Color_Off\]\w\[$Red\]]\$\[$Color_Off\] "
+PS1="\[$Red\][\[$BYellow\]\u\[$BBlue\]@\h \[$Color_Off\]\w\[$Red\]]\$\[$Color_Off\] "
 eval $(dircolors -b)
 
 man() {
@@ -112,3 +112,4 @@ source /usr/share/doc/pkgfile/command-not-found.bash
 source /usr/share/git/completion/git-completion.bash
 
 alsi -a
+tmux ls
